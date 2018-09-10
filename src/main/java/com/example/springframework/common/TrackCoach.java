@@ -1,7 +1,4 @@
-package com.example.springiocsample.common;
-
-import com.example.springiocsample.common.Coach;
-import com.example.springiocsample.common.FortuneService;
+package com.example.springframework.common;
 
 public class TrackCoach implements Coach {
 	@Override

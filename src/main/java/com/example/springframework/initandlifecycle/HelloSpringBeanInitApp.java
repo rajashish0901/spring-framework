@@ -1,7 +1,7 @@
-package com.example.springiocsample.initandlifecycle;
+package com.example.springframework.initandlifecycle;
 
-import com.example.springiocsample.common.Coach;
-import com.example.springiocsample.common.CricketCoach;
+import com.example.springframework.common.Coach;
+import com.example.springframework.common.CricketCoach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class HelloSpringBeanInitApp {

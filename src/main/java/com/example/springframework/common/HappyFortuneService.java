@@ -1,6 +1,5 @@
-package com.example.springiocsample.common;
+package com.example.springframework.common;
 
-import com.example.springiocsample.common.FortuneService;
 import org.springframework.stereotype.Component;
 
 @Component

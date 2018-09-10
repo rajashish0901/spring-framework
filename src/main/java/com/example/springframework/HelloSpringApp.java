@@ -1,6 +1,6 @@
-package com.example.springiocsample;
+package com.example.springframework;
 
-import com.example.springiocsample.common.Coach;
+import com.example.springframework.common.Coach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class HelloSpringApp {

@@ -1,7 +1,7 @@
-package com.example.springiocsample.initandlifecycle;
+package com.example.springframework.initandlifecycle;
 
-import com.example.springiocsample.common.Coach;
-import com.example.springiocsample.common.TrackCoach;
+import com.example.springframework.common.Coach;
+import com.example.springframework.common.TrackCoach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /*For "prototype" scoped beans, Spring does not call the destroy method.  Gasp!

@@ -1,6 +1,5 @@
-package com.example.springiocsample.common;
+package com.example.springframework.common;
 
-import com.example.springiocsample.common.Coach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;

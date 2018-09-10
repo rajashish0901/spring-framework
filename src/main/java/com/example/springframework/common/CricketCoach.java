@@ -1,4 +1,4 @@
-package com.example.springiocsample.common;
+package com.example.springframework.common;
 
 public class CricketCoach implements Coach {
 	@Override

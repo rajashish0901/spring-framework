@@ -1,7 +1,7 @@
-package com.example.springiocsample.annotationdemo;
+package com.example.springframework.annotationdemo;
 
-import com.example.springiocsample.common.Coach;
-import com.example.springiocsample.common.TennisCoach2;
+import com.example.springframework.common.Coach;
+import com.example.springframework.common.TennisCoach2;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class AnnotationDemoApp {
@@ -21,7 +21,7 @@ public class AnnotationDemoApp {
                 (context.getBean("tennisCoach", Coach.class) == context.getBean("tennisCoach", Coach.class)));
 
     //#2 explicit beanid defined as the annotation.
-        Coach theCoach2 = context.getBean("tenniscoach2", com.example.springiocsample.common.TennisCoach2.class);
+        Coach theCoach2 = context.getBean("tenniscoach2", com.example.springframework.common.TennisCoach2.class);
 
 
         // call a method on the bean
@@ -35,8 +35,8 @@ public class AnnotationDemoApp {
 
 
         System.out.println("~~ Is the theCoach2 singleton instances " +
-                (context.getBean("tenniscoach2", com.example.springiocsample.common.TennisCoach2.class) ==
-                        context.getBean("tenniscoach2", com.example.springiocsample.common.TennisCoach2.class)));
+                (context.getBean("tenniscoach2", com.example.springframework.common.TennisCoach2.class) ==
+                        context.getBean("tenniscoach2", com.example.springframework.common.TennisCoach2.class)));
 
 		System.out.println("++ Closing the context ++");
 		// close the context
