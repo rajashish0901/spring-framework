@@ -1,0 +1,97 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=55585:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/tools.jar:/Users/ashish/Documents/ProjectWorkspace/spring-framework/target/classes:/Users/ashish/.m2/repository/org/springframework/boot/spring-boot-starter/2.0.4.RELEASE/spring-boot-starter-2.0.4.RELEASE.jar:/Users/ashish/.m2/repository/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE.jar:/Users/ashish/.m2/repository/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar:/Users/ashish/.m2/repository/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE.jar:/Users/ashish/.m2/repository/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar:/Users/ashish/.m2/repository/org/springframework/spring-expression/5.0.8.RELEASE/spring-expression-5.0.8.RELEASE.jar:/Users/ashish/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE.jar:/Users/ashish/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.0.4.RELEASE/spring-boot-starter-logging-2.0.4.RELEASE.jar:/Users/ashish/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/ashish/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/ashish/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.jar:/Users/ashish/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar:/Users/ashish/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar:/Users/ashish/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/ashish/.m2/repository/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar:/Users/ashish/.m2/repository/org/springframework/spring-jcl/5.0.8.RELEASE/spring-jcl-5.0.8.RELEASE.jar:/Users/ashish/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/ashish/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar com.example.springframework.lifeCycle.LifeCycleDemoApp
+objc[3273]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin/java (0x1014984c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10151c4e0). One of the two will be used. Which one is undefined.
+
+@@ main::SpringApplication.run @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.4.RELEASE)
+
+2018-09-14 13:52:13.516  INFO 3273 --- [           main] c.e.s.lifeCycle.LifeCycleDemoApp         : Starting LifeCycleDemoApp on admins-MacBook-Pro.local with PID 3273 (/Users/ashish/Documents/ProjectWorkspace/spring-framework/target/classes started by ashish in /Users/ashish/Documents/ProjectWorkspace/spring-framework)
+2018-09-14 13:52:13.521  INFO 3273 --- [           main] c.e.s.lifeCycle.LifeCycleDemoApp         : No active profile set, falling back to default profiles: default
+2018-09-14 13:52:13.655  INFO 3273 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@f0f2775: startup date [Fri Sep 14 13:52:13 IST 2018]; root of context hierarchy
+
+##--## postProcessBeforeInitialization org.springframework.context.event.internalEventListenerProcessor
+##--## postProcessAfterInitialization org.springframework.context.event.internalEventListenerProcessor
+##--## postProcessBeforeInitialization org.springframework.context.event.internalEventListenerFactory
+##--## postProcessAfterInitialization org.springframework.context.event.internalEventListenerFactory
+
+##--## postProcessBeforeInitialization lifeCycleDemoApp
+##--## postProcessAfterInitialization lifeCycleDemoApp
+
+@@## A::Const ##@@
+##--## postProcessBeforeInitialization a
+##--## postProcessAfterInitialization a
+
+@@## C::Const ##@@
+##--## postProcessBeforeInitialization c
+##--## postProcessAfterInitialization c
+
+## I'm in the LifeCycleBeanOne Constructor
+LifeCycleBeanOne::setC via DI
+## LifeCycleBeanOne::My Bean Name is: LifeCycleBeanOne
+## LifeCycleBeanOne::Bean Factory has been set
+## LifeCycleBeanOne::Application context has been set
+##--## postProcessBeforeInitialization LifeCycleBeanOne
+## - LifeCycleBeanOne::Before Init - Called by Bean Post Processor
+## LifeCycleBeanOne::The Post Construct annotated method has been called
+## The LifeCycleBeanOne has its properties set!
+##--## postProcessAfterInitialization LifeCycleBeanOne
+
+@@## B::Const ##@@
+## - LifeCycleBeanOne::After init called by Bean Post Processor
+##--## postProcessBeforeInitialization org.springframework.boot.autoconfigure.AutoConfigurationPackages
+##--## postProcessAfterInitialization org.springframework.boot.autoconfigure.AutoConfigurationPackages
+##--## postProcessBeforeInitialization org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+##--## postProcessAfterInitialization org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+##--## postProcessBeforeInitialization org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration
+##--## postProcessAfterInitialization org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration
+##--## postProcessBeforeInitialization objectNamingStrategy
+##--## postProcessAfterInitialization objectNamingStrategy
+##--## postProcessBeforeInitialization mbeanServer
+##--## postProcessAfterInitialization mbeanServer
+##--## postProcessBeforeInitialization mbeanExporter
+##--## postProcessAfterInitialization mbeanExporter
+##--## postProcessBeforeInitialization org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+##--## postProcessAfterInitialization org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+##--## postProcessBeforeInitialization org.springframework.boot.context.properties.ConversionServiceDeducer$Factory
+##--## postProcessAfterInitialization org.springframework.boot.context.properties.ConversionServiceDeducer$Factory
+##--## postProcessBeforeInitialization spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+##--## postProcessAfterInitialization spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+##--## postProcessBeforeInitialization org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+##--## postProcessAfterInitialization org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+##--## postProcessBeforeInitialization org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration
+##--## postProcessAfterInitialization org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration
+##--## postProcessBeforeInitialization spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties
+##--## postProcessAfterInitialization spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties
+##--## postProcessBeforeInitialization org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration
+##--## postProcessAfterInitialization org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration
+##--## postProcessBeforeInitialization server-org.springframework.boot.autoconfigure.web.ServerProperties
+##--## postProcessAfterInitialization server-org.springframework.boot.autoconfigure.web.ServerProperties
+2018-09-14 13:52:14.727  INFO 3273 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-14 13:52:14.764  INFO 3273 --- [           main] c.e.s.lifeCycle.LifeCycleDemoApp         : Started LifeCycleDemoApp in 1.775 seconds (JVM running for 2.563)
+@@ main::ctx.getBean::LifeCycleBeanOne @@
+## - LifeCycleBeanOne::doStuffXXX
+@@## A::Hello() ##@@
+@@## B::Hello() ##@@
+@@## C::Hello() ##@@
+@@ main::ctx.getBean::LifeCycleBeanTwo @@
+## I'm in the LifeCycleBeanTwo Constructor
+## LifeCycleBeanTwo::My Bean Name is: LifeCycleBeanTwo
+## LifeCycleBeanTwo::Bean Factory has been set
+## LifeCycleBeanTwo::Application context has been set
+##--## postProcessBeforeInitialization LifeCycleBeanTwo
+## LifeCycleBeanTwo::The Post Construct annotated method has been called
+## The LifeCycleBeanTwo has its properties set!
+##--## postProcessAfterInitialization LifeCycleBeanTwo
+## - LifeCycleBeanTwo::doStuffXXX
+2018-09-14 13:52:14.776  INFO 3273 --- [       Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@f0f2775: startup date [Fri Sep 14 13:52:13 IST 2018]; root of context hierarchy
+2018-09-14 13:52:14.780  INFO 3273 --- [       Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+## LifeCycleBeanOne::The Predestroy annotated method has been called
+## The LifeCycleBeanOne bean has been terminated
+
+Process finished with exit code 0

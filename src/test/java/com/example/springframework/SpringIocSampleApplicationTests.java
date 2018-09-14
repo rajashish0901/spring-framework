@@ -1,4 +1,4 @@
-package com.example.springiocsample;
+package com.example.springframework;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

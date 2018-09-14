@@ -16,7 +16,12 @@ public class CricketCoach implements Coach {
 	public CricketCoach() {
 		System.out.println("CricketCoach:constructor()");
 	}
-	
+
+	public CricketCoach(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+		System.out.println("CricketCoach:constructor(fortuneService)");
+	}
+
 	public String getEmailAddress() {
 		return emailAddress;
 	}

@@ -13,6 +13,7 @@ public class TrackCoach implements Coach {
 	}
 	
 	public TrackCoach(FortuneService fortuneService) {
+		System.out.println("++ TrackCoach::Const(FortuneService fortuneService) ++");
 		this.fortuneService = fortuneService;
 	}
 

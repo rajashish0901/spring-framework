@@ -1,10 +1,10 @@
-package com.example.springframework.initandlifecycle;
+package com.example.springframework.configuration.xml;
 
 import com.example.springframework.common.Coach;
 import com.example.springframework.common.CricketCoach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class HelloSpringBeanInitApp {
+public class SpringBeanInitApp {
 
 	public static void main(String[] args) {
 

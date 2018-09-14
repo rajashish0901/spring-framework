@@ -12,16 +12,14 @@
 
     <!-- define the dependency-->
    	<bean id="myFortuneService"
-    		class="com.example.springiocsample.common.HappyFortuneService">
+    		class="com.example.springframework.common.HappyFortuneService">
     </bean>
 
     <!-- Bean Life Cycle methods -->
     <bean id="trackCoach"
-          class="com.example.springiocsample.common.TrackCoach" init-method="doMyStartupStuffXXX"
-          destroy-method="doMyCleanupStuffYYY"
-          scope="singleton">
+          class="com.example.springframework.common.TrackCoach" init-method="doMyStartupStuffXXX"
+          destroy-method="doMyCleanupStuffYYY">
     </bean>
-
 
 </beans>
 

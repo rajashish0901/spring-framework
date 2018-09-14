@@ -12,17 +12,17 @@
 
     <!-- define the dependency-->
    	<bean id="myFortuneService"
-    		class="com.example.springiocsample.common.HappyFortuneService">
+    		class="com.example.springframework.common.HappyFortuneService">
     </bean>
 
  	<bean id="myCoach"
- 			class="com.example.springiocsample.common.BaseballCoach">
+ 			class="com.example.springframework.common.BaseballCoach">
 			<!-- set up constructor injection -->
 			<constructor-arg ref="myFortuneService" />
 	</bean>
 
 	<bean id="myCoach1"
-		  	class="com.example.springiocsample.common.BaseballCoach" >
+		  	class="com.example.springframework.common.BaseballCoach" >
 			<!-- set up constructor injection -->
 			<constructor-arg ref="myFortuneService" />
 	</bean>

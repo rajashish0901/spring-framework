@@ -1,4 +1,4 @@
-package com.example.springframework.initandlifecycle;
+package com.example.springframework.configuration.xml;
 
 import com.example.springframework.common.Coach;
 import com.example.springframework.common.TrackCoach;
@@ -34,6 +34,6 @@ public class HelloSpringLifeCycleApp {
         System.out.println("++ Closing the context ++");
 
         // close the context
-		context.close();
+		context. close();
 	}
 }

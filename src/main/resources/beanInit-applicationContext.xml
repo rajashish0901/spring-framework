@@ -12,12 +12,12 @@
 
     <!-- define the dependency-->
    	<bean id="myFortuneService"
-    		class="com.example.springiocsample.common.HappyFortuneService">
+    		class="com.example.springframework.common.HappyFortuneService" scope="singleton">
     </bean>
 
     <!-- Bean initialization demo -->
     <bean id="cricCoach"
-		  class="com.example.springiocsample.common.CricketCoach">
+		  class="com.example.springframework.common.CricketCoach" scope="prototype">
 
 		<!-- set up setter injection -->
 		<property name="fortuneService" ref="myFortuneService" />
